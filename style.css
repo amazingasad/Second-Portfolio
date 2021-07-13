@@ -1,0 +1,148 @@
+body{
+    margin: 0px;
+}
+p{
+	 font-size:24px;
+}
+h1{
+    font-size: 40px;
+    font-weight: 250;
+}
+.upper-sec{
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+    display:flex;
+}
+.name-highlight{
+    color: #ff1778;
+    font-weight:500;
+    font-size: 45;
+}
+.half-width{
+    width: 45%;
+    margin-bottom: 50px;
+    padding-left:4%;
+}
+.half-width p{
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-weight: 250;
+}
+.half-width img{
+    width: 100%;
+}
+.button{
+    text-decoration: none;
+    background-color: #ff1778;
+    color: white;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 7px;
+}
+.button a:hover{
+    cursor: pointer;
+    color: #EF7095;
+    background-color: white;
+}
+.mid-sec{
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    display:flex;
+}
+.bottom-sec {
+	display:flex;
+	margin-bottom:12%;
+	background-color:#cccccc;
+	padding:25px;
+}
+.bottom-sec div{
+	width:31%;
+	margun-left:2%;
+	margin-right:2%;
+	border:1px solid purple;
+	border-radius:5px;
+	box-shadow:red;
+	
+}
+.bottom-sec img {
+	width:100%;
+}
+.bottom-sec h1 {
+	text-align:center;
+}
+.center {
+	text-align:center;
+}
+.end-sec{
+    text-align: center;
+    margin: auto;
+    display: block;
+    width: 50%;
+}
+.thin{
+    font-weight: 250;
+}
+.mail{
+    background-color: rgba(253, 28, 148, 0.877);
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    font-size: 24px;
+}
+footer{
+    text-align: center;
+    background-color:#cccccc;
+    background-position: righ;
+    padding-top:10px;
+    padding-bottom:10px;
+    border-radius:25%;
+}
+footer h3{
+    font-weight: 350;
+    padding-bottom:5px;
+}
+
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  .fa:hover {
+    opacity: 0.7;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }  
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    
+  }
+  
