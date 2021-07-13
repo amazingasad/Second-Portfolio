@@ -32,11 +32,11 @@ h1{
     text-decoration: none;
     background-color: #EF7095;
     color: white;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    border-radius: 5px;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 7px;
 }
 .button a:hover{
     cursor: pointer;
@@ -47,4 +47,28 @@ h1{
     background-image: url("images/biography-bg.png");
     background-repeat: no-repeat;
     display:flex;
+}
+.bottom-sec {
+	display:flex;
+	margin-bottom:12%;
+	background-image:url("images/latest-work-bg.png");
+	background-repeat:no-repeat;
+}
+.bottom-sec div{
+	width:31%;
+	margun-left:2%;
+	margin-right:2%;
+	border:1px solid purple;
+	border-radius:5px;
+	box-shadow:red;
+	
+}
+.bottom-sec img {
+	width:100%;
+}
+.bottom-sec h1 {
+	text-align:center;
+}
+.center {
+	text-align:center;
 }
