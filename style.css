@@ -8,16 +8,17 @@ h1{
 .upper-sec{
     background-image: url("images/header-bg.png");
     background-repeat: no-repeat;
+    display:flex;
 }
 .name-highlight{
     color: #EF7095;
-    font-weight:100;
+    font-weight:500;
     font-size: 45;
 }
 .half-width{
-    width: 40%;
-    padding-left: 20px;
+    width: 45%;
     margin-bottom: 50px;
+    padding-left:4%;
 }
 .half-width p{
     margin-bottom: 30px;
@@ -26,9 +27,6 @@ h1{
 }
 .half-width img{
     width: 100%;
-}
-.half-width div{
-    display: inline-flexbox;
 }
 .button{
     text-decoration: none;
@@ -48,4 +46,5 @@ h1{
 .mid-sec{
     background-image: url("images/biography-bg.png");
     background-repeat: no-repeat;
+    display:flex;
 }
