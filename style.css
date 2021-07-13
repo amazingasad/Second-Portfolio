@@ -1,9 +1,12 @@
 body{
     margin: 0px;
 }
+p{
+	font-size:24px;
+}
 h1{
     font-size: 40px;
-    font-weight: 200;
+    font-weight: 250;
 }
 .upper-sec{
     background-image: url("images/header-bg.png");
@@ -23,7 +26,7 @@ h1{
 .half-width p{
     margin-bottom: 30px;
     font-size: 24px;
-    font-weight: 100;
+    font-weight: 250;
 }
 .half-width img{
     width: 100%;
@@ -53,6 +56,7 @@ h1{
 	margin-bottom:12%;
 	background-image:url("images/latest-work-bg.png");
 	background-repeat:no-repeat;
+	padding:25px;
 }
 .bottom-sec div{
 	width:31%;
@@ -79,7 +83,7 @@ h1{
     width: 50%;
 }
 .thin{
-    font-weight: 100;
+    font-weight: 250;
 }
 .mail{
     background-color: rgba(253, 28, 148, 0.877);
@@ -95,10 +99,13 @@ footer{
     text-align: center;
     background-image: url("images/footer-bg.png");
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: righ;
+    padding-top:10px;
+    padding-bottom:10px;
+    border-radius:25%;
 }
 footer h3{
-    font-weight: 100;
+    font-weight: 350;
 }
 
 
